@@ -1,0 +1,123 @@
+.main-screen {
+  background-image: url("../images/firstimage.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.main-menu {
+  overflow: hidden;
+  font-family: "Alegreya", sans-serif;
+}
+
+.main-menu a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.main-menu a:hover {
+  background-color: #ddd;
+  color: #8f8c8c;
+}
+
+.logo {
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.cabecera {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(131, 125, 125, 0.541);
+}
+
+.main-title {
+  color: #ffffff;
+  font-family: "Alegreya", sans-serif;
+  font-size: 5rem;
+  margin-top: 6rem;
+  text-align: center;
+}
+
+.main-parrafo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-p {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  width: 40%;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.buttonsin {
+  color: #ffffff;
+  background-color: #5e5e5ea8;
+  letter-spacing: 0.1em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  font-size: 0.6rem;
+  display: block;
+}
+
+.second-screen {
+  height: 100vh;
+  background-color: #fefdfd;
+}
+
+.second-title {
+  font-family: "Alegreya", sans-serif;
+  color: #56534c;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  margin-top: 7rem;
+  margin-left: 12rem;
+  width: 55%;
+}
+
+.memories {
+  font-family: "Alegreya", sans-serif;
+  color: #a47d5e;
+  letter-spacing: 0.1em;
+  font-size: small;
+  margin-left: 10rem;
+  margin-top: 0.1rem;
+  width: 75%;
+}
+
+.second-p {
+  color: #56534c;
+  font-weight: normal;
+  letter-spacing: 0.1em;
+  font-size: smaller;
+  margin-left: 1rem;
+  margin-top: 5rem;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  width: 122%;
+}
+/*# sourceMappingURL=styles.css.map */
